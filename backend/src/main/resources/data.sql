@@ -14,3 +14,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp de HTML', 'https://www.maxpixel.net/static/photo/1x/Training-Course-Business-Training-Training-3220712.jpg', 'https://cdn.icon-icons.com/icons2/37/PNG/512/bookstack_libr_3024.png');
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', 1);
