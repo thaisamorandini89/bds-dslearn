@@ -12,3 +12,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp de HTML', 'https://www.maxpixel.net/static/photo/1x/Training-Course-Business-Training-Training-3220712.jpg', 'https://cdn.icon-icons.com/icons2/37/PNG/512/bookstack_libr_3024.png');
