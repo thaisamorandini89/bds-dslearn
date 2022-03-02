@@ -72,10 +72,6 @@ public class Course implements Serializable{
 		return offers;
 	}
 
-	public void setOffers(List<Offer> offers) {
-		this.offers = offers;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
