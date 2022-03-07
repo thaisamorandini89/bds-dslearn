@@ -28,3 +28,18 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1,1,TIMESTAMP WITH TIME ZONE '2021-07-14T13:00:00Z',null,true,false);
 INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2,1,TIMESTAMP WITH TIME ZONE '2021-07-14T15:00:00Z',null,true,false);
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Primeira aula da trilha de HTML', 1, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (1, 'Conceitos iniciais das tags HTML', 'https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Segunda aula da trilha de HTML', 2, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (2, 'Tags principais do HTML', 'https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Terceira aula da trilha de HTML', 3, 1);
+INSERT INTO tb_content (id, text_Content, video_Uri) VALUES (3, 'Primeiro exemplo feito em HTML', 'https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o');
+
+INSERT INTO tb_lesson (title, position, section_id) VALUES ('Tarefa do capítulo 1', 4, 1);
+INSERT INTO tb_task (id, description, question_Count, approval_Count, weight, due_Date) VALUES (4, '', 5, 4, 1.0, TIMESTAMP WITH TIME ZONE '2021-08-14T15:00:00Z');
+
+INSERT INTO tb_lessons_done (lesson_id, user_id, offer_id) VALUES (1, 1, 1);
+INSERT INTO tb_lessons_done (lesson_id, user_id, offer_id) VALUES (2, 1, 1);
