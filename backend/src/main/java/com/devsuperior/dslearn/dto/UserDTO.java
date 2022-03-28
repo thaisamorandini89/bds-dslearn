@@ -1,4 +1,4 @@
-package com.devsuperior.dslearn;
+package com.devsuperior.dslearn.dto;
 
 import java.io.Serializable;
 

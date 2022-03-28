@@ -8,7 +8,7 @@ INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
 
 INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES ('Primeiro feedback da tarefa: favor revisar', TIMESTAMP WITH TIME ZONE '2021-07-14T10:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
 INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES ('Segundo feedback da tarefa: favor revisar', TIMESTAMP WITH TIME ZONE '2021-07-14T15:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
-INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES ('Terceiro feedback da tarefa: favor revisar', TIMESTAMP WITH TIME ZONE '2021-07-14T20:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
+INSERT INTO tb_notification(text, moment, read, route, user_id) VALUES ('Terceiro feedback da tarefa: favor revisar', TIMESTAMP WITH TIME ZONE '2021-07-14T20:00:00Z', false, '/offers/1/resource/1/sections/1', 1);
 
 INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 1);

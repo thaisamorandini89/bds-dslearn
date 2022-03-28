@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dslearn.UserDTO;
+import com.devsuperior.dslearn.dto.UserDTO;
 import com.devsuperior.dslearn.services.UserService;
 
 @RestController

@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dslearn.UserDTO;
+import com.devsuperior.dslearn.dto.UserDTO;
 import com.devsuperior.dslearn.entities.User;
 import com.devsuperior.dslearn.repositories.UserRepository;
 import com.devsuperior.dslearn.services.exceptions.ResourceEntityNotFoundException;
